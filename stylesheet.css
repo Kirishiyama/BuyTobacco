@@ -1,0 +1,505 @@
+html,
+body {
+    font-family: Arial sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    background: url("img/bg.png") no-repeat;
+    background-size: 100%;
+}
+
+#container {
+
+}
+
+#upBar {
+
+}
+
+#logo img{
+    position: absolute;
+    left: 46.5%;
+    width: 150px;
+    height: 150px;
+}
+
+#upBar p{
+    position: relative;
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    left: 35%;
+}
+
+#text1 {
+
+}
+
+#text2 {
+    padding-left: 200px;
+}
+
+#mainMenu {
+  /*s*/  display: inline-block;
+    position: relative;
+    left: 20px;
+    width: 1250px;
+    height: 700px;
+    box-shadow: 0 0 15px white;
+    border-radius: 30px;
+    background-color: #c4c4c4;
+}
+
+#total p{
+    position: relative;
+    font-size: 40px;
+    width: 130px;
+    left: 35%;
+}
+
+#mainMenu ul{
+    position: absolute;
+    top: 30px;
+}
+
+#mainMenu li{
+    margin: 10px 0;
+    width: 150px;
+}
+
+#firstBlock {
+    width: 390px;
+    height: 100%;
+}
+
+#secondBlock {
+    position: absolute;
+    left: 34.5%;
+    bottom: 0;
+    width: 390px;
+    height: 100%;
+}
+
+#bounch {
+    position: absolute;
+    margin: 300px 0;
+}
+
+#musthave {
+    position: absolute;
+    margin: 300px 0;
+}
+
+#thirdBlock {
+    position: absolute;
+    left: 68.80%;
+    bottom: 0;
+    width: 390px;
+    height: 100%;
+}
+
+#total {
+    position: absolute;
+    left: 1280px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0 0 15px white;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.nameTobacco {
+    width: 230px;
+    height: 100%;
+}
+
+.nameTobacco p{
+    position: absolute;
+    left: 50px;
+    bottom: 90%;
+    font-size: 30px;
+    color: black;
+}
+
+.valueGramsDS,
+.valueGramsBB,
+.valueGramsEL,
+.valueGramsMH,
+.valueGramsBN {
+    display: inline-block;
+}
+
+.valueGramsDS {
+    position: relative;
+    width: 60px;
+    left: 16%;
+    top: 3%;
+    font-size: 12px;
+}
+.valueGramsBB {
+    position: relative;
+    width: 60px;
+    left: 45%;
+    top: 3%;
+    font-size: 12px;
+}
+.valueGramsEL {
+    position: relative;
+    width: 80px;
+    left: 74%;
+    top: 3%;
+    font-size: 12px;
+}
+.valueGramsMH {
+    position: relative;
+    width: 60px;
+    left: 67.5%;
+    top: 46%;
+    font-size: 12px;
+}
+.valueGramsBN {
+    position: relative;
+    width: 60px;
+    left: 28%;
+    top: 46%;
+    font-size: 12px;
+}
+
+#bounch p{
+    position: absolute;
+    top: -15px;
+    font-size: 30px;
+    color: black;
+}
+
+#musthave p{
+    position: absolute;
+    top: -15px;
+    font-size: 30px;
+    color: black;
+}
+
+/*.grams,*/
+/*.grams2,*/
+/*.grams3 {*/
+/*    position: absolute;*/
+/*    left: 250px;*/
+/*    bottom: -20px;*/
+/*}*/
+
+/*.grams2,*/
+/*.grams3 {*/
+/*    bottom: 60%;*/
+/*}*/
+
+.grams3 {
+    bottom: 72%;
+}
+
+/*.calc__group--input {*/
+/*    margin: 17.5% 0;*/
+/*}*/
+
+div.grams,
+div.grams div,
+div.grams2,
+div.grams2 div,
+div.grams3,
+div.grams3 div{
+    width: 50px;
+}
+
+
+#summ {
+    position: absolute;
+    font-size: 40px;
+    color: black;
+    bottom: 520px;
+    left: 115%;
+}
+
+.radio36 {
+    position: absolute;
+    left: 500px;
+    margin: 5px 0;
+}
+
+#form--calc {
+    width: 60px;
+}
+
+.calc__group--input {
+    margin: 0;
+    width: 60px;
+}
+
+form#form--calc div {
+    margin: 10px 0;
+}
+
+
+
+{
+    position: absolute;
+    margin: 5px 0;
+}
+
+#block1 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 615px;
+}
+#block2 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 588px;
+}
+#block3 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 561px;
+}
+#block4 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 532px;
+}
+#block5 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 505px;
+}
+#block6 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 478px;
+}
+#block7 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 450px;
+}
+#block8 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 422px;
+}
+#block9 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 393px;
+}
+#block10 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 365px;
+}
+#block11 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: -2px;
+}
+#block12 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 337px;
+}
+#block13 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 308px;
+}
+#block14 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 279px;
+}
+#block15 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 250px;
+}
+#block16 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 221px;
+}
+#block17 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 194px;
+}
+#block18 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 165px;
+}
+#block19 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 135px;
+}
+#block20 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 107px;
+}
+#block21 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 80px;
+}
+#block22 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 53px;
+}
+#block23 {
+    z-index: 99;
+    position: absolute;
+    left: 200px;
+    bottom: 26px;
+}
+
+#block24 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 615px;
+}
+#block25 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 588px;
+}
+#block26 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 561px;
+}
+#block27 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 534px;
+}
+#block28 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 505px;
+}
+#block29 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 475px;
+}
+#block30 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 447px;
+}
+#block31 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 418px;
+}
+
+#block32 {
+    z-index: 99;
+    position: absolute;
+    left: 1060px;
+    bottom: 615px;
+}
+#block33 {
+    z-index: 99;
+    position: absolute;
+    left: 1060px;
+    bottom: 588px;
+}
+#block34 {
+    z-index: 99;
+    position: absolute;
+    left: 1060px;
+    bottom: 561px;
+}
+#block35 {
+    z-index: 99;
+    position: absolute;
+    left: 1060px;
+    bottom: 534px;
+}
+#block36 {
+    z-index: 99;
+    position: absolute;
+    left: 1060px;
+    bottom: 505px;
+}
+
+#block37 {
+    z-index: 99;
+    position: absolute;
+    left: 1060px;
+    bottom: 315px;
+}
+#block38 {
+    z-index: 99;
+    position: absolute;
+    left: 1060px;
+    bottom: 285px;
+}
+#block39 {
+    z-index: 99;
+    position: absolute;
+    left: 1060px;
+    bottom: 255px;
+}
+
+#block40 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 315px;
+}
+#block41 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 285px;
+}
+#block42 {
+    z-index: 99;
+    position: absolute;
+    left: 630px;
+    bottom: 255px;
+}
